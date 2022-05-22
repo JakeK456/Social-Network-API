@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { Student, Course } = require("../models");
+const { User, Thought } = require("../models");
 
 // Aggregate function to get the number of students overall
 const headCount = async () =>
